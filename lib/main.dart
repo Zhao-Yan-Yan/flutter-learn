@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/fish/fish_main.dart';
-import 'package:my_app/guest/guest_main_page.dart';
+
+import 'canvas/canvas_board_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Flutter",
-      home: const FishMain(),
+      home: CanvasBoardPage(),
       theme: ThemeData(
         useMaterial3: true,
       ),
